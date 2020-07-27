@@ -1,0 +1,21 @@
+	//ifstream t("Daten_original.txt");
+	//string str((istreambuf_iterator<char>(t)),
+	//	istreambuf_iterator<char>());
+	//char* str_conv;
+	
+
+	//str_conv = (char*)malloc((str.length() + 1));
+
+	/*for (unsigned int i = 0; i < str.length(); i++) {
+		if (str.at(i) == '\0') {
+			break;
+		}
+		str_conv[i] = str.at(i);
+	}
+	str_conv[str.at(str.length())] = '\0';*/
+
+	/*str_conv = (char *)malloc(str.size() + 1);
+	memcpy(str_conv, str.c_str(), str.size() + 1);*/
+
+	/*str_conv = new char[str.size() + 1];
+	memcpy(str_conv, str.c_str(), str.size() + 1);*/
